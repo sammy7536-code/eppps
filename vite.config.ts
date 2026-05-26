@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
@@ -20,3 +21,10 @@ export default defineConfig(() => {
     },
   };
 });
+=======
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: './'
+})
+>>>>>>> 07416190d91738c0ba79f6cbbef23412c5047aba
